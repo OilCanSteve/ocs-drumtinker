@@ -14,7 +14,7 @@
 	doap:name "OilCan Drumtinker" ;
 	lv2:minorVersion 0 ;
 	lv2:microVersion 21 ;
-	lv2:project <https://github.com/stivb/OilCanSteve>;
+	lv2:project <https://github.com/OilCanSteve>;
 	doap:license "GPLv3" ;
 
 	doap:developer [
