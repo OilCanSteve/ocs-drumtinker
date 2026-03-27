@@ -32,10 +32,9 @@ clean:
 
 install: build
 	install -d $(DESTDIR)$(PREFIX)/lib/lv2/$(BUNDLEDIR)
-	install -d $(DESTDIR)$(PREFIX)/lib/lv2/$(BUNDLEDIR)/modgui
 
 	install -m 644 *.so  $(DESTDIR)$(PREFIX)/lib/lv2/$(BUNDLEDIR)/
 	install -m 644 *.ttl $(DESTDIR)$(PREFIX)/lib/lv2/$(BUNDLEDIR)/
-	install -m 644 modgui/* $(DESTDIR)$(PREFIX)/lib/lv2/$(BUNDLEDIR)/modgui
+	cp -r modgui $(DESTDIR)$(PREFIX)/lib/lv2/$(BUNDLEDIR)/
 
 # --------------------------------------------------------------

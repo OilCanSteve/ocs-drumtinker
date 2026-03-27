@@ -1,7 +1,7 @@
 @prefix modgui: <http://moddevices.com/ns/modgui#> .
 @prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
 
-<https://github.com/stivb/oilcanplugins/drumtinker>
+<https://github.com/OilCanSteve/ocs-drumtinker>
     modgui:gui [
         modgui:resourcesDirectory <modgui> ;
         modgui:iconTemplate <modgui/icon-oilcan-drumtinker.html> ;
@@ -10,7 +10,7 @@
         modgui:screenshot <modgui/screenshot-oilcan-drumtinker.png> ;
         modgui:thumbnail <modgui/thumbnail-oilcan-drumtinker.png> ;
         modgui:brand "OilCan" ;
-        modgui:label "OilCan Drumtinker" ;
+        modgui:label "Drum Tinker" ;
         modgui:model "boxy" ;
         modgui:panel "boxy100" ;
         modgui:color "pink" ;
