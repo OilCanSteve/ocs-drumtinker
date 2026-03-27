@@ -1,0 +1,134 @@
+<div class="mod-pedal mod-pedal-drumtinker">
+    <div mod-role="drag-handle" class="mod-drag-handle"></div>
+
+    <div class="nt-header">
+        <div class="nt-brand">{{brand}}</div>
+        <div class="nt-name">{{label}}</div>
+        <div class="nt-header-right">
+            <div class="mod-light on" mod-role="bypass-light"></div>
+            <div class="mod-footswitch" mod-role="bypass"></div>
+        </div>
+    </div>
+
+    <div class="nt-top-controls">
+        <div class="mod-knob nt-notestart" title="First input note to remap">
+            <div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="NoteStart"></div>
+            <span class="mod-knob-title">NoteStart</span>
+        </div>
+        <div class="nt-legend">Per-note Vol: -2 keep original, -1 use row master, 0-127 fixed value</div>
+    </div>
+
+    <div class="nt-grid">
+        <div class="nt-row">
+            <div class="nt-masters">
+                <div class="mod-knob nt-master-knob" title="Master volume for Out_A">
+                    <div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_A"></div>
+                    <span class="mod-knob-title">Vol<br/><span id="vol-a-title">1</span></span>
+                </div>
+                <div class="mod-knob nt-master-knob" title="Master MIDI channel for Out_A">
+                    <div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Chn_A"></div>
+                    <span class="mod-knob-title">Channel<br/><span id="chn-a-title">1</span></span>
+                </div>
+            </div>
+            <div class="nt-cells">
+                <div class="nt-cell"><div class="nt-cell-note">36</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_1"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_1"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">37</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_2"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_2"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">38</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_3"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_3"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">39</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_4"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_4"></div><span class="mod-knob-title">Vol</span></div></div></div>
+            </div>
+        </div>
+
+        <div class="nt-row">
+            <div class="nt-masters">
+                <div class="mod-knob nt-master-knob" title="Master volume for Out_B">
+                    <div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_B"></div>
+                    <span class="mod-knob-title">Vol<br/><span id="vol-b-title">1</span></span>
+                </div>
+                <div class="mod-knob nt-master-knob" title="Master MIDI channel for Out_B">
+                    <div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Chn_B"></div>
+                    <span class="mod-knob-title">Channel<br/><span id="chn-b-title">1</span></span>
+                </div>
+            </div>
+            <div class="nt-cells">
+                <div class="nt-cell"><div class="nt-cell-note">40</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_5"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_5"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">41</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_6"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_6"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">42</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_7"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_7"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">43</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_8"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_8"></div><span class="mod-knob-title">Vol</span></div></div></div>
+            </div>
+        </div>
+
+        <div class="nt-row">
+            <div class="nt-masters">
+                <div class="mod-knob nt-master-knob" title="Master volume for Out_C">
+                    <div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_C"></div>
+                    <span class="mod-knob-title">Vol<br/><span id="vol-c-title">1</span></span>
+                </div>
+                <div class="mod-knob nt-master-knob" title="Master MIDI channel for Out_C">
+                    <div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Chn_C"></div>
+                    <span class="mod-knob-title">Channel<br/><span id="chn-c-title">1</span></span>
+                </div>
+            </div>
+            <div class="nt-cells">
+                <div class="nt-cell"><div class="nt-cell-note">44</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_9"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_9"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">45</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_10"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_10"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">46</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_11"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_11"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">47</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_12"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_12"></div><span class="mod-knob-title">Vol</span></div></div></div>
+            </div>
+        </div>
+
+        <div class="nt-row">
+            <div class="nt-masters">
+                <div class="mod-knob nt-master-knob" title="Master volume for Out_D">
+                    <div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_D"></div>
+                    <span class="mod-knob-title">Vol<br/><span id="vol-d-title">1</span></span>
+                </div>
+                <div class="mod-knob nt-master-knob" title="Master MIDI channel for Out_D">
+                    <div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Chn_D"></div>
+                    <span class="mod-knob-title">Channel<br/><span id="chn-d-title">1</span></span>
+                </div>
+            </div>
+            <div class="nt-cells">
+                <div class="nt-cell"><div class="nt-cell-note">48</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_13"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_13"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">49</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_14"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_14"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">50</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_15"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_15"></div><span class="mod-knob-title">Vol</span></div></div></div>
+                <div class="nt-cell"><div class="nt-cell-note">51</div><div class="nt-cell-controls"><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Note_Out_16"></div><span class="mod-knob-title">Note</span></div><div class="mod-knob"><div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="Vol_Out_16"></div><span class="mod-knob-title">Vol</span></div></div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mod-pedal-input">
+        {{#effect.ports.audio.input}}
+        <div class="mod-input mod-input-disconnected" title="{{name}}" mod-role="input-audio-port" mod-port-symbol="{{symbol}}">
+            <div class="mod-pedal-input-image"></div>
+        </div>
+        {{/effect.ports.audio.input}}
+        {{#effect.ports.midi.input}}
+        <div class="mod-input mod-input-disconnected" title="{{name}}" mod-role="input-midi-port" mod-port-symbol="{{symbol}}">
+            <div class="mod-pedal-input-image"></div>
+        </div>
+        {{/effect.ports.midi.input}}
+        {{#effect.ports.cv.input}}
+        <div class="mod-input mod-input-disconnected" title="{{name}}" mod-role="input-cv-port" mod-port-symbol="{{symbol}}">
+            <div class="mod-pedal-input-image"></div>
+        </div>
+        {{/effect.ports.cv.input}}
+    </div>
+
+    <div class="mod-pedal-output">
+        {{#effect.ports.audio.output}}
+        <div class="mod-output mod-output-disconnected" title="{{name}}" mod-role="output-audio-port" mod-port-symbol="{{symbol}}">
+            <div class="mod-pedal-output-image"></div>
+        </div>
+        {{/effect.ports.audio.output}}
+        {{#effect.ports.midi.output}}
+        <div class="mod-output mod-output-disconnected" title="{{name}}" mod-role="output-midi-port" mod-port-symbol="{{symbol}}">
+            <div class="mod-pedal-output-image"></div>
+        </div>
+        {{/effect.ports.midi.output}}
+        {{#effect.ports.cv.output}}
+        <div class="mod-output mod-output-disconnected" title="{{name}}" mod-role="output-cv-port" mod-port-symbol="{{symbol}}">
+            <div class="mod-pedal-output-image"></div>
+        </div>
+        {{/effect.ports.cv.output}}
+    </div>
+</div>
