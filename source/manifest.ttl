@@ -5,3 +5,4 @@
 <https://github.com/OilCanSteve/ocs-drumtinker> a lv2:Plugin ;
     lv2:binary <ocs-drumtinker.so> ;
     rdfs:seeAlso <ocs-drumtinker.ttl> .
+<https://github.com/OilCanSteve/ocs-drumtinker> rdfs:seeAlso <modgui.ttl> .
