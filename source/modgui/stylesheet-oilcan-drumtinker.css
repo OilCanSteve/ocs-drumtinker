@@ -2,18 +2,18 @@
 @import url(/fonts/questrial/stylesheet.css);
 
 .mod-pedal-drumtinker {
-    --slider-frame-width: 44px;
-    --slider-frame-height: 88px;
+    --slider-frame-width: 53px;
+    --slider-frame-height: 106px;
     --slider-frame-count: 65;
     position: absolute;
-    width: 520px;
-    height: 520px;
-    border-radius: 18px;
+    width: 624px;
+    height: 624px;
+    border-radius: 22px;
     box-sizing: border-box;
     background-image: url(/resources/pedals/boxy75/pink.png{{{ns}}});
     background-size: cover;
     background-position: center center;
-    padding: 12px 26px 18px 12px;
+    padding: 14px 31px 22px 14px;
     overflow: hidden;
 }
 
@@ -21,12 +21,12 @@
     left: 0;
     right: 0;
     top: 0;
-    height: 28px;
+    height: 34px;
     position: absolute;
 }
 
 .mod-pedal-drumtinker .nt-header {
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +34,7 @@
 
 .mod-pedal-drumtinker .nt-brand {
     font-family: "Nexa";
-    font-size: 34px;
+    font-size: 41px;
     font-weight: bold;
     line-height: 1;
     text-transform: uppercase;
@@ -42,20 +42,20 @@
 
 .mod-pedal-drumtinker .nt-name {
     font-family: "Questrial";
-    font-size: 24px;
+    font-size: 29px;
     line-height: 1;
 }
 
 .mod-pedal-drumtinker .nt-header-right {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
 }
 
 .mod-pedal-drumtinker .mod-light {
-    width: 22px;
-    height: 22px;
-    border-radius: 11px;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
     background: rgba(0, 0, 0, 0.2);
 }
 
@@ -67,9 +67,9 @@
     background-image: url(/resources/pedals/footswitch.png{{{ns}}});
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-size: auto 88px;
-    width: 44px;
-    height: 44px;
+    background-size: auto 106px;
+    width: 53px;
+    height: 53px;
     cursor: pointer;
 }
 
@@ -78,25 +78,25 @@
 }
 
 .mod-pedal-drumtinker .nt-top-controls {
-    height: 90px;
+    height: 108px;
     display: flex;
     align-items: flex-end;
-    gap: 16px;
+    gap: 19px;
 }
 
 .mod-pedal-drumtinker .nt-notestart {
-    width: 70px;
-    height: 84px;
+    width: 84px;
+    height: 101px;
     position: relative;
 }
 
 .mod-pedal-drumtinker .nt-notestart .mod-knob-image {
-    width: 56px;
-    height: 56px;
+    width: 67px;
+    height: 67px;
     margin: 0 auto;
     background-image: url(/resources/knobs/boxy/copper.png{{{ns}}});
     background-repeat: no-repeat;
-    background-size: auto 56px;
+    background-size: auto 67px;
     background-position: center;
 }
 
@@ -105,7 +105,7 @@
     text-align: center;
     margin-top: 2px;
     font-family: "Nexa";
-    font-size: 11px;
+    font-size: 13px;
     font-weight: bold;
     line-height: 1;
     text-transform: uppercase;
@@ -113,72 +113,72 @@
 
 .mod-pedal-drumtinker .nt-legend {
     font-family: "Questrial";
-    font-size: 14px;
-    padding: 6px 12px;
+    font-size: 17px;
+    padding: 7px 14px;
     border: 1px solid rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
+    border-radius: 12px;
     background: rgba(255, 255, 255, 0.35);
 }
 
 .mod-pedal-drumtinker .nt-grid {
-    height: 356px;
+    height: 427px;
     display: flex;
     flex-direction: column;
     justify-content:  space-between
 }
 
 .mod-pedal-drumtinker .nt-row {
-    height: 84px;
+    height: 101px;
     display: grid;
     grid-template-columns: max-content max-content;
     align-items: end;
-    column-gap: 20px;
+    column-gap: 24px;
     justify-content: start;
 }
 
 .mod-pedal-drumtinker .nt-row-label {
     font-family: "Nexa";
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     text-align: right;
-    padding-right: 5px;
+    padding-right: 6px;
     text-transform: uppercase;
 }
 
 .mod-pedal-drumtinker .nt-masters {
     display: flex;
     align-items: flex-end;
-    gap: 8px;
+    gap: 10px;
     background-color: antiquewhite;
-    padding:6px;
+    padding:7px;
 }
 
 .mod-pedal-drumtinker .nt-master-knob {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    width: 36px;
-    height: 58px;
+    width: 43px;
+    height: 70px;
 }
 
 .mod-pedal-drumtinker .nt-master-knob .mod-knob-image {
-    width: 34px;
-    height: 34px;
+    width: 41px;
+    height: 41px;
     margin: 0 auto;
     background-image: url(/resources/knobs/boxy/copper.png{{{ns}}});
     background-repeat: no-repeat;
-    background-size: auto 34px;
+    background-size: auto 41px;
     background-position: center;
 }
 
 .mod-pedal-drumtinker .nt-master-knob .mod-knob-title {
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 0;
     margin-bottom: 1px;
 }
 
 .mod-pedal-drumtinker .nt-master-knob .mod-knob-title {
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 0;
     margin-bottom: 1px;
 }
@@ -186,7 +186,7 @@
 .mod-pedal-drumtinker .nt-cells {
     display: grid;
     grid-template-columns: repeat(4, max-content);
-    gap: 6px;
+    gap: 7px;
     justify-content: start;
 }
 
@@ -196,11 +196,11 @@
     justify-content: flex-start;
     align-items: center;
     gap: 1px;
-    height: 64px;
+    height: 77px;
     border: 1px solid rgba(0, 0, 0, 0.35);
-    border-radius: 8px;
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.26);
-    padding: 0 4px 2px;
+    padding: 0 5px 2px;
     box-sizing: border-box;
     position: relative;
     z-index: 1;
@@ -210,7 +210,7 @@
     width: 100%;
     text-align: center;
     font-family: "Nexa";
-    font-size: 11px;
+    font-size: 13px;
     font-weight: bold;
     line-height: 1;
     margin: 0;
@@ -228,19 +228,19 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    width: 36px;
-    height: 44px;
+    width: 43px;
+    height: 53px;
     position: relative;
     z-index: 2;
 }
 
 .mod-pedal-drumtinker .nt-cell .mod-knob-image {
-    width: 34px;
-    height: 34px;
+    width: 41px;
+    height: 41px;
     margin: 0 auto;
     background-image: url(/resources/knobs/boxy/copper.png{{{ns}}});
     background-repeat: no-repeat;
-    background-size: auto 34px;
+    background-size: auto 41px;
     background-position: center;
     position: relative;
     z-index: 3;
@@ -248,7 +248,7 @@
 }
 
 .mod-pedal-drumtinker .nt-cell .mod-knob-title {
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 0;
     margin-bottom: 1px;
 }
@@ -260,16 +260,16 @@
 
 .mod-pedal-drumtinker .mod-pedal-input {
     position: absolute;
-    left: -11px;
-    top: 122px;
+    left: -13px;
+    top: 146px;
 }
 
 .mod-pedal-drumtinker .mod-pedal-output {
     position: absolute;
-    right: -11px;
-    top: 120px;
-    width: 18px;
-    height: 208px;
+    right: -13px;
+    top: 144px;
+    width: 22px;
+    height: 250px;
 }
 
 .mod-pedal-drumtinker .mod-input,
@@ -278,22 +278,22 @@
 }
 
 .mod-pedal-drumtinker .mod-input:nth-child(1) {
-    top: 144px;
-    left:-58px;
+    top: 173px;
+    left:-70px;
 }
 
 .mod-pedal-drumtinker .mod-output:nth-child(1) {
-    top: 55px;
+    top: 66px;
 }
 
 .mod-pedal-drumtinker .mod-output:nth-child(2) {
-    top: 78px;
+    top: 94px;
 }
 
 .mod-pedal-drumtinker .mod-output:nth-child(3) {
-    top: 101px;
+    top: 121px;
 }
 
 .mod-pedal-drumtinker .mod-output:nth-child(4) {
-    top: 124px;
+    top: 149px;
 }
