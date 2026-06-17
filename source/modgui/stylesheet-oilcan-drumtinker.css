@@ -6,8 +6,8 @@
     --slider-frame-height: 106px;
     --slider-frame-count: 65;
     position: absolute;
-    width: 624px;
-    height: 624px;
+    width: 640px;
+    height: 640px;
     border-radius: 22px;
     box-sizing: border-box;
     background-image: url(/resources/pedals/boxy75/pink.png{{{ns}}});
@@ -260,13 +260,13 @@
 
 .mod-pedal-drumtinker .mod-pedal-input {
     position: absolute;
-    left: -13px;
+    left: 1px;
     top: 146px;
 }
 
 .mod-pedal-drumtinker .mod-pedal-output {
     position: absolute;
-    right: -13px;
+    right: 10px;
     top: 144px;
     width: 22px;
     height: 250px;
@@ -277,23 +277,24 @@
     position: absolute;
 }
 
-.mod-pedal-drumtinker .mod-input:nth-child(1) {
-    top: 173px;
-    left:-70px;
-}
+
 
 .mod-pedal-drumtinker .mod-output:nth-child(1) {
     top: 66px;
+    left:20px;
 }
 
 .mod-pedal-drumtinker .mod-output:nth-child(2) {
     top: 94px;
-}
+    left:20px;
+}   
 
 .mod-pedal-drumtinker .mod-output:nth-child(3) {
     top: 121px;
+    left:20px;
 }
 
 .mod-pedal-drumtinker .mod-output:nth-child(4) {
     top: 149px;
+    left:20px;
 }
