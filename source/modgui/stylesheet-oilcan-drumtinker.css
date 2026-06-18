@@ -260,8 +260,7 @@
 
 .mod-pedal-drumtinker .mod-pedal-input {
     position: absolute;
-    border:3px solid red;
-    left:-30px;
+    left: -25px;
     width:50px;
     top: 146px;
     right:20px;
@@ -275,6 +274,13 @@
     top: 144px;
     width: 22px;
     height: 250px;
+}
+
+.mod-pedal .mod-pedal-input .mod-midi-input
+ {
+    right: 40px;
+    top: 160px;
+    z-index: 1001;
 }
 
 .mod-pedal-drumtinker .mod-input,
