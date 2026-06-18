@@ -1,5 +1,5 @@
 @import url(/fonts/nexa/stylesheet.css);
-@import url(/fonts/questrial/stylesheet.css);
+@import url(/fonts/questrial/stylesheet.css); 
 
 .mod-pedal-drumtinker {
     --slider-frame-width: 53px;
@@ -13,7 +13,7 @@
     background-image: url(/resources/pedals/boxy75/pink.png{{{ns}}});
     background-size: cover;
     background-position: center center;
-    padding: 14px 31px 22px 14px;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -260,12 +260,17 @@
 
 .mod-pedal-drumtinker .mod-pedal-input {
     position: absolute;
-    left: 1px;
+    border:3px solid red;
+    left:-30px;
+    width:50px;
     top: 146px;
+    right:20px;
 }
 
 .mod-pedal-drumtinker .mod-pedal-output {
     position: absolute;
+    z-index: 1000;
+    left: 610px;;
     right: 10px;
     top: 144px;
     width: 22px;
