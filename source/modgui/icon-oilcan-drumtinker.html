@@ -115,21 +115,23 @@
         {{/effect.ports.cv.input}}
     </div>
 
-    <div class="mod-pedal-output" >
-        {{#effect.ports.audio.output}}
-        <div class="mod-output mod-output-disconnected" title="{{name}}" mod-role="output-audio-port" mod-port-symbol="{{symbol}}">
-            <div class="mod-pedal-output-image"></div>
+    <div class="io-row">
+        <div class="mod-pedal-output">
+            {{#effect.ports.audio.output}}
+            <div class="mod-output mod-output-disconnected" title="{{name}}" mod-role="output-audio-port" mod-port-symbol="{{symbol}}">
+                <div class="mod-pedal-output-image"></div>
+            </div>
+            {{/effect.ports.audio.output}}
+            {{#effect.ports.midi.output}}
+            <div class="mod-output mod-output-disconnected" title="{{name}}" mod-role="output-midi-port" mod-port-symbol="{{symbol}}">
+                <div class="mod-pedal-output-image"></div>
+            </div>
+            {{/effect.ports.midi.output}}
+            {{#effect.ports.cv.output}}
+            <div class="mod-output mod-output-disconnected" title="{{name}}" mod-role="output-cv-port" mod-port-symbol="{{symbol}}">
+                <div class="mod-pedal-output-image"></div>
+            </div>
+            {{/effect.ports.cv.output}}
         </div>
-        {{/effect.ports.audio.output}}
-        {{#effect.ports.midi.output}}
-        <div class="mod-output mod-output-disconnected" title="{{name}}" mod-role="output-midi-port" mod-port-symbol="{{symbol}}">
-            <div class="mod-pedal-output-image"></div>
-        </div>
-        {{/effect.ports.midi.output}}
-        {{#effect.ports.cv.output}}
-        <div class="mod-output mod-output-disconnected" title="{{name}}" mod-role="output-cv-port" mod-port-symbol="{{symbol}}">
-            <div class="mod-pedal-output-image"></div>
-        </div>
-        {{/effect.ports.cv.output}}
     </div>
 </div>

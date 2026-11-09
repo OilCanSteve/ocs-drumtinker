@@ -5,6 +5,12 @@
     --slider-frame-width: 53px;
     --slider-frame-height: 106px;
     --slider-frame-count: 65;
+    --io-input-top: 144px;
+    --io-input-lane-width: 22px;
+    --io-row-right: -12px;
+    --io-row-top: 144px;
+    --io-row-width: 22px;
+    --io-output-gap: 27px;
     position: absolute;
     width: 640px;
     height: 640px;
@@ -14,7 +20,7 @@
     background-size: cover;
     background-position: center center;
     padding: 20px;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .mod-pedal-drumtinker .mod-drag-handle {
@@ -260,52 +266,49 @@
 
 .mod-pedal-drumtinker .mod-pedal-input {
     position: absolute;
-    left: -25px;
-    width:50px;
-    top: 146px;
-    right:20px;
+    left: 0;
+    top: var(--io-input-top);
+    width: var(--io-input-lane-width);
+    overflow: visible;
+    z-index: 120;
 }
 
-.mod-pedal-drumtinker .mod-pedal-output {
+.mod-pedal-drumtinker .io-row {
     position: absolute;
-    z-index: 1000;
-    left: 610px;;
-    right: 10px;
-    top: 144px;
-    width: 22px;
-    height: 250px;
+    right: var(--io-row-right);
+    top: var(--io-row-top);
+    width: var(--io-row-width);
+    display: block;
+    margin-top: 0;
+    overflow: visible;
+    z-index: 120;
 }
 
-.mod-pedal .mod-pedal-input .mod-midi-input
- {
-    right: 40px;
-    top: 160px;
-    z-index: 1001;
+.mod-pedal-drumtinker .io-row .mod-pedal-output {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: var(--io-output-gap);
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
 }
 
 .mod-pedal-drumtinker .mod-input,
 .mod-pedal-drumtinker .mod-output {
-    position: absolute;
+    position: relative;
 }
 
-
-
-.mod-pedal-drumtinker .mod-output:nth-child(1) {
-    top: 66px;
-    left:20px;
+.mod-pedal-drumtinker .mod-pedal-input .mod-input {
+    left: 0;
 }
 
-.mod-pedal-drumtinker .mod-output:nth-child(2) {
-    top: 94px;
-    left:20px;
-}   
-
-.mod-pedal-drumtinker .mod-output:nth-child(3) {
-    top: 121px;
-    left:20px;
-}
-
-.mod-pedal-drumtinker .mod-output:nth-child(4) {
-    top: 149px;
-    left:20px;
+.mod-pedal-drumtinker .io-row .mod-output {
+    margin: 0;
+    left: 0;
+    position: relative;
+    overflow: visible;
 }
